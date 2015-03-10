@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2216991348">
+    <data-source source="LOCAL" name="Rails miracle: development" uuid="87799526-0103-4c5c-931a-878395dee76e">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:miracle_development</jdbc-url>
+      <user-name>miracle_admin</user-name>
+      <user-password>dfc7dfc3dfd8dfcbdfc9dfc6dfcfdfdddfc8dff0dfe1df9edfe8</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails miracle: test" uuid="f64da19f-c558-4305-84ea-c6cee17ffd37">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:miracle_test</jdbc-url>
+      <user-name>miracle_admin</user-name>
+      <user-password>dfc7dfc3dfd8dfcbdfc9dfc6dfcfdfdddfc8dff0dfe1df9edfe8</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails miracle: production" uuid="8080cb4a-958e-4029-8d80-0a3d541077c2">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:miracle_production</jdbc-url>
+      <user-name>miracle_admin</user-name>
+      <user-password>dfc7dfc3dfd8dfcbdfc9dfc6dfcfdfdddfc8dff0dfe1df9edfe8</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

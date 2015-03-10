@@ -1,0 +1,11 @@
+<% @page_feed.each do |post| %>
+	<%- unless post['message'].nil? %>
+		<li>
+			<div class="flex-twitter-icon"></div>
+			<h2 class="twitter-post-username">
+			<a href=<%= post['link'] %> target='_new'>Miracle Back Brace</a> <span>/ <%= post['created_time'].to_time.to_formatted_s(:short)   %></span>
+			</h2>
+			<p class="twitter-post line-clamp"><%= post['message'] %></p>
+		</li>
+	<% end %>
+<% end %>

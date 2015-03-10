@@ -1,0 +1,50 @@
+{
+  "products":
+  [
+    {
+      "id": "A",
+      "name": "Brace for Women",
+      "price": "10",
+      "description": "Substantially reduces or eliminates lower back pain during sitting, driving, and sleeping. Uniquely designed to be worn comfortably under any clothes, and even one piece swim suit. Miracle Back brace is soft and comfortable. Most important it is not visible and can be worn discreetly.Designed especially for women. Promotes proper posture",
+      "link": "http://www.amazon.com/Miracle-Back/dp/B00HYIG0GE/ref=sr_1_2?ie=UTF8&qid=1422621835&sr=8-2&keywords=miracle+back+brace&pebp=1422621927301&peasin=B00HYIG0GE",
+      "image_link": "products/product10.jpg",
+      "image_desc_link1": "",
+      "image_desc_link2": "",
+      "image_desc_link3": "",
+      "image_desc_link4": "",
+      "image_desc_link5": "",
+      "image_desc_link6": "",
+      "slider": "image_gallery"
+    },
+    {
+      "id": "B",
+      "name": "Brace for Men",
+      "price": "15",
+      "description": "Substantially reduces or eliminates lower back pain during sitting, driving, and sleeping. Uniquely designed to be worn comfortably under any clothes, and even one piece swim suit. Miracle Back brace is soft and comfortable. Most important it is not visible and can be worn discreetly.Designed especially for women. Promotes proper posture",
+      "link": "#",
+      "image_link": "products/product20.jpg",
+      "image_desc_link1": "",
+      "image_desc_link2": "",
+      "image_desc_link3": "",
+      "image_desc_link4": "",
+      "image_desc_link5": "",
+      "image_desc_link6": "",
+      "slider": "image_gallery2"
+    },
+    {
+      "id": "C",
+      "name": "Brace for Pregnant",
+      "price": "20",
+      "description": "Substantially reduces or eliminates lower back pain during sitting, driving, and sleeping. Uniquely designed to be worn comfortably under any clothes, and even one piece swim suit. Miracle Back brace is soft and comfortable. Most important it is not visible and can be worn discreetly.Designed especially for women. Promotes proper posture",
+      "link": "#",
+      "image_link": "products/product30.jpg",
+      "image_desc_link1": "",
+      "image_desc_link2": "",
+      "image_desc_link3": "",
+      "image_desc_link4": "",
+      "image_desc_link5": "",
+      "image_desc_link6": "",
+      "slider": "image_gallery3"
+    }
+  ]
+}

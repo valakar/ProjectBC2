@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row products">
+		<% @products.each do |product| %>
+		    <div class="col-md-4">
+				<div class="productbox">
+					<%= render :partial => product['slider'] if product['slider'] != ""%>
+					<%#= render :partial => 'home/image_gallery'%>
+					<div class="block-for-caption">
+					</div>
+					<div class="caption">
+						<h5><%= product['name'] %></h5>
+		              	<b class="finalprice">$<%= product['price'] %></b>
+		                <p>
+		                  <a href=<%= product['link'] %> target="_blank" class="btn btn-success btn-md btn-block">BUY NOW</a>
+		                </p>
+		          	</div>
+				</div>
+				<div class="imgthumb img-responsive">
+					<%=image_tag(product['image_desc_link1'], class: "padding-top-sm") if product['image_desc_link1'] != "" %>
+					<%=image_tag(product['image_desc_link2'], class: "padding-top-sm") if product['image_desc_link2'] != "" %>
+					<%=image_tag(product['image_desc_link3'], class: "padding-top-sm") if product['image_desc_link3'] != "" %>
+					<%=image_tag(product['image_desc_link4'], class: "padding-top-sm") if product['image_desc_link4'] != "" %>
+					<%=image_tag(product['image_desc_link5'], class: "padding-top-sm") if product['image_desc_link5'] != "" %>
+					<%=image_tag(product['image_desc_link6'], class: "padding-top-sm") if product['image_desc_link6'] != "" %>
+				</div>
+
+				<div class="padding-top-sm">
+					<p>Description</p>
+					<p class="just-redline"><%= product['description'] %></p>
+				</div>
+			</div>
+		<% end %>
+	</div><!--/row-->
+</div>

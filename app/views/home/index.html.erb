@@ -1,0 +1,146 @@
+
+<div class="container-fluid">
+	<div class="row">
+		<a href=<%= home_shop_path%>>
+			<div class="col-md-8 section-1 nopadding" id="work">
+				<div class="logo-1 wp1"></div>
+			</div>
+		</a>
+		<div class="col-md-4 section-text nopadding">
+			<div class="wp4">
+				<h2 class="frame padding-bottom-sm-only">Miracle Back Brace</h2>
+				<ul class="fixed-ul-1">
+					<li>Unique patented undergarment design</li>
+					<li>Different from any back brace on the  market</li>
+					<li>The only brace designed to be worn under your clothes</li>
+					<li>Works by protecting spine and nerves from compression during sleeping, sitting or driving</li>
+				</ul>
+				<div class="thin-sep"></div>
+			</div>
+			<a href=<%= home_shop_path%>>
+				<div class="small-featured-img section-small-1">
+					<div class="arrow"></div>
+				</div>
+			</a>
+			
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 section-text nopadding">
+			<div class="wp5">
+				<h2 class="mech padding-bottom-sm-only">Key Features</h2>
+				<ul class="fixed-ul-2">
+					<li>Supports back muscles</li>
+					<li>Promotes proper posture</li>
+					<li>Attractive separate design for women, pregnant women and men</li>
+					<li>Discrete and comfortable to be worn day and night</li>
+				</ul>
+				<div class="thin-sep"></div>
+			</div>
+			<a href=<%= home_about_us_path%>>
+				<div class="small-featured-img section-small-2">
+					<div class="arrow"></div>
+				</div>
+			</a>
+		</div>
+		<a href=<%= home_doctor_advise_path%>>
+			<div class="col-md-8 section-2 nopadding">
+				<div class="logo-2 wp2"></div>
+			</div>
+		</a>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row">
+		<a href=<%= home_about_us_path%>>
+			<div class="col-md-3 section-3">
+				<div class="logo-3 wp3"></div>
+			</div>
+		</a>	
+		<div class="col-md-4 section-text nopadding">
+			<div class="wp6">
+				<h2 class="front-frame padding-bottom-sm-only">Testimonials</h2>
+				<ul class="fixed-ul-3">
+					<li>Incredible testimonials from users</li>
+					<li>Lets you sleep without pain</li>
+					<li>Users were able to return back to work</li>
+					<li>Greatly improves the quality of daily life</li>
+				</ul>
+				<div class="thin-sep"></div>
+			</div>
+			<div class='leaf'></div>
+			<!-- <a href=<%= home_doctor_advise_path%>>
+				<div class="small-featured-img section-small-3">
+					<div class="arrow"></div>
+				</div>
+			</a> -->
+		</div>
+		<a href=<%= home_doctor_advise_path%>>
+			<div class="col-md-5 section-4"></div>
+		</a>
+	</div>
+</div>
+<div class="container-fluid padding-bottom-big-only" id="about">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<h1 class="chain">A new generation of back brace</h1>
+			<p class="text-intro">If you suffer from Lower Back Pain the Miracle Back Brace my greatly improve your life  by letting you go throughout the daily activities with little or no pain. </p>
+			<p class="text-intro">Miracle Back Brace  is a new patented back brace that is incredibly effective</p>
+		</div>
+	</div>
+</div>
+<section class="flex-container">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="flexslider">
+					<ul class="slides">
+						<%= render partial: 'home/slider_content' %>
+						<!-- <li>
+							<div class="flex-twitter-icon"></div>
+							<h2 class="twitter-post-username">
+							<a href="#">AOS New York @aod</a> <span>/ 35 min</span>
+							</h2>
+							<p class="twitter-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.</p>
+						</li>
+						<li>
+							<div class="flex-twitter-icon"></div>
+							<h2 class="twitter-post-username">
+							<a href="#">AOS New York @aod</a> <span>/ 35 min</span>
+							</h2>
+							<p class="twitter-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. </p>
+						</li>
+						<li>
+							<div class="flex-twitter-icon"></div>
+							<h2 class="twitter-post-username">
+							<a href="#">AOS New York @aod</a> <span>/ 35 min</span>
+							</h2>
+							<p class="twitter-post">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor.</p>
+						</li> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<%= render :partial => 'home/products_main' %>
+<section class="discover">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4">
+				<a href=<%= home_shop_path %> class="shop-btn">Discover The Shop</a>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="sign_up">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 sign-up">
+				<%= render :partial => 'home/newsletter' %>
+			</div>
+		</div>
+	</div>
+</section>
+
